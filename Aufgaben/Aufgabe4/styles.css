@@ -1,0 +1,149 @@
+body {
+    text-align: left;
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerHeader {
+    width: 100%;
+    margin: auto;
+    background-image: url("./assets/foto/bergefarbig.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hintergrundbild {
+    height: 400px;
+    width: 800px;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerMain {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.containerFooter {
+    width: 800px;
+    margin: auto;
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    color: white;
+    text-decoration: underline;
+}
+  
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    line-height: 2;
+}
+
+#p {
+    line-height: 1.5;
+}
+
+p {
+    line-height: 0.5;
+}
+
+video {
+    width: 800px;
+}
+
+input {
+    width: 400px;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border: 2px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input::placeholder {
+    color: white;
+    padding: 2px;
+}
+
+#message {
+    height: 150px;
+}
+
+#send {
+    width: 60px;
+}
+
+
+footer {
+    background-color: #eaeaea;
+    color: gray;
+    font-size: 15px;
+    height: 250px;
+    line-height: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#aussen {
+    display: flex;
+    justify-content: left;
+    float: left;
+    width: 800px;
+}
+
+.innen {
+    width: 267px;
+    margin-top: 50px;
+}
+
+
