@@ -1,0 +1,231 @@
+body {
+    text-align: left;
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerHeader {
+    width: 100%;
+    margin: auto;
+    background-image: url("./assets/foto/gebaeude_big.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hintergrundbild {
+    height: 400px;
+    width: 800px;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerMain {
+    width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.containerFooter {
+    width: 800px;
+    margin: auto;
+}
+
+/* Navigationsleiste */
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    color: white;
+    text-decoration: underline;
+}
+  
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
+/* ----- */
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#p {
+    line-height: 1.5;
+}
+
+p {
+    line-height: 0.5;
+}
+
+video {
+    width: 800px;
+}
+
+/* Formular */
+
+input, textarea {
+    width: 400px;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border: 2px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input::placeholder {
+    color: white;
+    padding: 2px;
+}
+
+textarea::placeholder {
+    color: white;
+    padding: 2px;
+}
+
+#message {
+    height: 150px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#send {
+    width: 60px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #eaeaea;
+    color: gray;
+    font-size: 15px;
+    height: 250px;
+    line-height: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#aussen {
+    display: flex;
+    justify-content: left;
+    float: left;
+    width: 800px;
+}
+
+.innen {
+    width: 267px;
+    margin-top: 50px;
+}
+
+/* Highlight-Effekt für Teaserbild */
+
+main img:hover {
+    width: 860px;
+    position: relative;
+    left: -30px;
+    right: 30px;
+    top: 0px;
+    bottom: 0px;
+}
+
+main video:hover {
+    width: 860px;
+    position: relative;
+    left: -30px;
+    right: 30px;
+    top: 0px;
+    bottom: 0px;
+}
+
+/*
+main img:not(:hover) {
+    opacity: 0.5;
+}
+*/
+
+/* Highlight-Effekt für Social-Media Links */
+
+footer img {
+    opacity: 0.5;
+}
+
+footer img:hover {
+    opacity: 1.0;
+}
+
+/* Einfache Slideshow */
+
+.containerHeader {
+    animation-name: slideshow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes slideshow {
+    0% {background-image: url("./assets/foto/gebaeude_big.jpg");}
+    25% {background-image: url("./assets/foto/natur_big.jpg");}
+    50% {background-image: url("./assets/foto/boot_big.jpg");}
+    75% {background-image: url("./assets/foto/strasse_big.jpg");}
+    100% {background-image: url("./assets/foto/gebaeude_big.jpg");}
+}
+
+/* Individuelle Schriftgestaltung */
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 100px;
+    font-weight: lighter;
+    color: gray;
+    line-height: 0;
+    position: relative;
+    top: 65px;
+    left: 0px;
+}
+
+/* Banner "I'm lookinhg for an Intership" */
+
+.banner {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 250px;
+}

@@ -8,7 +8,7 @@ body {
 .containerHeader {
     width: 100%;
     margin: auto;
-    background-image: url("./assets/foto/bergefarbig.jpeg");
+    background-image: url("./assets/foto/gebaeude_big.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
@@ -99,7 +99,7 @@ video {
     width: 800px;
 }
 
-input {
+input, textarea {
     width: 400px;
     background-color: gray;
     color: white;
@@ -114,8 +114,13 @@ input::placeholder {
     padding: 2px;
 }
 
+textarea::placeholder {
+    color: white;
+    padding: 2px;
+}
+
 #message {
-    height: 150px;
+    height: 150px; 
 }
 
 #send {
