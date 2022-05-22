@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+}
+
+#drumpad {
+    width: 462px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.row {
+    margin: auto;
+    display: flex;
+}
+
+.pad {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin: 3px;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+#pad1, #pad2, #pad3 {
+    background: linear-gradient(#3C91F4, #2065D2);
+}
+
+#pad1:hover, #pad2:hover, #pad3:hover {
+    opacity: 100%;
+}
+
+#pad4, #pad5, #pad6, #pad7 {
+    background: linear-gradient(#FE5AAF, #F00780);
+}
+
+#pad4:hover, #pad5:hover, #pad6:hover, #pad7:hover {
+    opacity: 100%;
+}
+
+#pad8, #pad9 {
+    background: linear-gradient(#F5A23B, #C76702);  
+}
+
+#pad8:hover, #pad9:hover {
+    opacity: 100%;
+}
+
+.playbutton {
+    opacity: 75%;
+    margin: auto;
+}
+
+.playbutton:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
