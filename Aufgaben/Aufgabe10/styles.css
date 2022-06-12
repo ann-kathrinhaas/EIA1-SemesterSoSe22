@@ -1,0 +1,130 @@
+body {
+    background: rgb(207, 255, 229, 0.7);
+}
+
+#content {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    color: rgb(97, 95, 95);
+}
+
+#counter {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: rgb(97, 95, 95);
+    margin-bottom: 50px;
+}
+
+.list {
+    position: relative;
+}
+
+/* Input Feld -> neues To Do eingeben */
+#inputTodo {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    width: 470px;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+    border: 1px solid rgb(167, 240, 201);
+}
+
+#inputTodo:hover {
+    cursor: pointer;
+}
+
+#inputTodo:focus {
+    background: rgb(167, 240, 201);
+    border-radius: 20px;
+    border: 1px solid rgb(97, 95, 95);
+    outline: none;
+}
+
+/* Add Button -> To Do hinzufügen */
+#addButton {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(97, 95, 95);
+    opacity: 50%;
+}
+
+#addButton:hover {
+    cursor: pointer;
+    color: rgb(97, 95, 95);
+    opacity: 100%;
+}
+
+/* To Do Liste */
+.todo {
+    text-align: left;
+    position: relative;
+    padding: 20px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+    background-color: rgb(167, 240, 201); 
+    border: 1px solid rgb(97, 95, 95);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Haken Icon -> To Do abhaken */
+.check {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    border: 1px solid rgb(97, 95, 95);
+    color: rgb(97, 95, 95);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+.check:hover {
+    cursor: pointer;
+}
+
+.check i {
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.check.false i {
+    display: none;
+}
+
+/* Mülleimer Icon -> To Do löschen */
+.trash {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    color: rgb(97, 95, 95);
+    opacity: 50%;
+}
+
+.trash:hover {
+    cursor: pointer;
+    color: rgb(97, 95, 95);
+    opacity: 100%;
+}
